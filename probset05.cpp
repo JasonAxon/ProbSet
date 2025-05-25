@@ -14,7 +14,7 @@ int main(){
     interest = principal * (rate/100) * time;
     total = principal + interest;
 
-    cout << "Interest Earned: P" << endl;
-    cout << "Total Amount: P" << endl;
+    cout << "Interest Earned: P" << interest << endl;
+    cout << "Total Amount: P" << total << endl;
     return 0;
 }
